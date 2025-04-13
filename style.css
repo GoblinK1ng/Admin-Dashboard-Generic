@@ -1,3 +1,7 @@
+:root{
+  --main-color: #F06400;
+}
+
 * {
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
@@ -30,7 +34,7 @@
   flex-direction: column;
   gap: 50px;
 
-  background-color: #F06400;
+  background-color: var(--main-color);
   color: white;
   padding: 4px;
 }
@@ -95,6 +99,12 @@ a{
 button, input{
   border-radius: 24px;
   border-style: solid;
+}
+
+button{
+  background-color: var(--main-color);
+  width: 100px;
+  margin: 10px;
 }
 
 
