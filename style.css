@@ -2,6 +2,7 @@
   margin: 0;
 }
 
+/*Main Container Info*/
 .main-container{
   height: 100vh;
   display: grid;
@@ -10,18 +11,18 @@
   gap: 12px;
 }
 
-/*Flex Items*/
-.header, .top-header, .account, .sidebar{
-  display: flex;
-}
-
-
-
-
 .main-container div{
   background-color: beige;
 
 }
+
+
+
+/*Flex Items*/
+.header, .top-header, .account, .sidebar, .bottom-header, .welcome-section, .create-section{
+  display: flex;
+}
+
 
 
 
@@ -40,6 +41,7 @@
 /*Header Section*/
 .header{
   flex-direction: column;
+  justify-content: space-between;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
 }
@@ -48,7 +50,8 @@
   justify-content: space-between;
 }
 
-.account{
+.bottom-header{
+  justify-content: space-between;
 }
 
 
