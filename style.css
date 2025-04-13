@@ -9,7 +9,6 @@
 
 /*Main Container Info*/
 .main-container{
-  height: 100vh;
   display: grid;
   grid-template-columns: 200px 1fr;
   grid-template-rows: 150px 1fr;
@@ -89,11 +88,14 @@ a{
 
 .top-header{
   justify-content: space-between;
+  padding: 10px 10px 0px 10px;
+  gap:50px;
 }
 
 .search, .account{
   justify-content: center;
   align-items: center;
+  gap:10px;
 }
 
 button, input{
@@ -106,6 +108,17 @@ button{
   width: 100px;
   margin: 10px;
 }
+
+.search{
+  flex-grow: 1;
+  gap:10px;
+}
+
+.search-input{
+  height: 35px;
+  flex-grow: 1;
+}
+
 
 
 
