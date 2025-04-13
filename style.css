@@ -209,6 +209,38 @@ button{
   border-left: 8px var(--side-color) solid;
   background-color: white;
   height:200px;
+  overflow: hidden;
+  padding: 8px;
+  
+  display:grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 30px 1fr 60px;
+
+  grid-template-areas: 
+  "title title title title title title"
+  "para para para para para para"
+  ". . . icon1 icon2 icon3";
+}
+
+.projects > p{
+  font-size: 0.8rem;
+  grid-area: para;
+}
+
+.projects > h4{
+  grid-area: title;
+}
+
+.projects>input:nth-child(5){
+  grid-area: icon3;
+}
+
+.projects>input:nth-child(4){
+  grid-area: icon2;
+}
+
+.projects>input:nth-child(3){
+  grid-area: icon1;
 }
 
 
