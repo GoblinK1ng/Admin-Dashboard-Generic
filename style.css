@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /*Main Container Info*/
@@ -15,7 +16,7 @@
 
 /*Flex Items*/
 .header, .top-header, .account, .sidebar, .bottom-header, .welcome-section, .create-section,
-.search, .account{
+.search, .account, .logo{
   display: flex;
 }
 
@@ -31,6 +32,7 @@
 
   background-color: #F06400;
   color: white;
+  padding: 4px;
 }
 
 ul{
@@ -44,14 +46,28 @@ a{
   align-items: center;
   text-decoration: none;
   color: white;
+  font-weight: 900;
 }
 
 .icon{
   height: 30px;
   width: 30px;
   filter: invert(100%);
+  padding: 2px 5px;
 }
 
+.big-icon{
+  height: 45px;
+  width: 45px;
+  filter: invert(100%);
+}
+
+.logo{
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  font-weight: 1000;
+}
 
 
 
