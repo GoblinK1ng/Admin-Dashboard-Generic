@@ -1,5 +1,6 @@
 :root{
   --main-color: #F06400;
+  --side-color: #f00000;
 }
 
 * {
@@ -83,6 +84,8 @@ a{
   justify-content: space-between;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
+
+  padding-bottom: 15px;
 
   background-color: white;
   color: black;
@@ -201,19 +204,20 @@ button{
   gap: 5px;
 }
 
+.projects{
+  border-radius: 8px;
+  border-left: 8px var(--side-color) solid;
+  background-color: white;
+  height:200px;
+}
+
 
 
 
 
 /*Temp*/
-.projects, .announcements, .trendings{
-  background-color: rgb(122, 122, 122);
-  
-}
 
-.projects{
-  height:200px;
-}
+
 
 .announcements, .trendings{
   height: 100px;
