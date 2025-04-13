@@ -6,7 +6,7 @@
 .main-container{
   height: 100vh;
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 200px 1fr;
   grid-template-rows: 150px 1fr;
 }
 
@@ -138,4 +138,9 @@ button, input{
 
 li{
   list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
 }
