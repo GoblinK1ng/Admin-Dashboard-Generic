@@ -145,3 +145,8 @@ a{
   text-decoration: none;
   color: black;
 }
+
+.icon{
+  height: 30px;
+  width: 30px;
+}
