@@ -81,15 +81,15 @@
 }
 
 .announcements-section{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .trending-section{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 
@@ -97,8 +97,9 @@
 
 
 /*Temp*/
-.projects, .announcements, .trending{
+.projects, .announcements, .trendings{
   background-color: rgb(122, 122, 122);
+  height: 100px;
 }
 
 .heading{
