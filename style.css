@@ -187,7 +187,7 @@ button{
 .projects-container{
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 24px;
 }
 
@@ -206,7 +206,7 @@ button{
 
 .projects{
   border-radius: 8px;
-  border-left: 8px var(--side-color) solid;
+  border-left: 8px var(--main-color) solid;
   background-color: white;
   height:200px;
   overflow: hidden;
@@ -247,6 +247,35 @@ button{
 
 
 
+.announcements-container{
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+
+}
+
+.announcements{
+  border-bottom: 2px rgba(128, 128, 128, 0.281) solid;
+  margin: 5px 10px;
+  overflow: hidden;
+}
+
+.announcements > p{
+  font-size: 0.8rem;
+  overflow: hidden;
+}
+
+
+
+
+
+
+.trending-container{
+  background-color: white;
+}
+
+
+
 /*Temp*/
 
 
@@ -257,6 +286,7 @@ button{
 
 .heading{
   grid-column: 1 / 3;
+  padding-bottom: 10px;
 
 }
 
