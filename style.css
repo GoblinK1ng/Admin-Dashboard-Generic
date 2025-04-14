@@ -44,6 +44,7 @@
 ul{
   list-style-type: none;
   padding: 0;
+  
 }
 
 a{
@@ -139,6 +140,8 @@ button{
   padding: 0px 20px;
   justify-content: space-between;
   align-items: center;
+
+  
   
 }
 .welcome-section{
